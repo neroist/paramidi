@@ -47,6 +47,9 @@ Or you can use [paramidib](https://pietroppeter.github.io/paramidib/).
 # chords are just notes in a set
 (piano, {c, e})
 
+# you can also set volume, which is helpful for dynamics
+(piano, (volume: 120), c, d, e, f)
+
 # you can change the length of chords just like single notes
 (guitar, (octave: 4),
   1/8, {d, -b, -g}, {d, -b, -g},
